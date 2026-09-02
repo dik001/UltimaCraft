@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+data/database.db*
+data/settings.json
+data/images/items/*
+!data/images/items/.gitkeep
+backups/*.db
+backups/*.db-*
+logs/*.log
